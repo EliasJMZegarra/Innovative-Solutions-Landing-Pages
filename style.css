@@ -643,7 +643,7 @@ footer .website-logo{
 .container-card{
 	width: 100%;
 	display: flex;
-	max-width: 1100px;
+	max-width: 1350px;
 	margin: auto;
 }
 .title-cards{
@@ -712,6 +712,7 @@ footer .website-logo{
 }
 
 #planes h1{
+  max-height: min-content;
   text-align: center;
   margin-top: 10px;
 }
@@ -920,3 +921,73 @@ padding-left: 30px;
   margin: auto;
   max-width: 510px;
  }
+
+ .Team-Video{
+  color: black;
+  background-color:rgba(5, 201, 201, 0.596);
+}
+.Team-Video h2{
+  text-align: center;
+}
+.Team-Video_HappyCommunity-video{
+  display: flex;
+  justify-content: center;
+}
+.Team-Video_HappyCommunity-video iframe{
+
+  width : 699px;
+  height: 393px;
+}
+
+.Team-Video2{
+  background-color:rgba(5, 201, 201, 0.596);
+}
+
+.Team-Video2{
+  color: black;
+  background-color: #ffffff;
+}
+.Team-Video2 h2{
+  text-align: center;
+}
+.Team-Video_HappyCommunity2-video{
+  display: flex;
+  justify-content: center;
+}
+.Team-Video_HappyCommunity2-video iframe{
+
+  width : 699px;
+  height: 393px;
+}
+
+.Team-Video2{
+  background-color: rgba(123, 255, 0, 0.699);
+}
+
+.Team-Video2 h2{
+  background-color:rgba(120, 146, 95, 0.714);
+  color:black;
+  border-radius: 0.5em;
+  margin: auto;
+  max-width: 380px;
+  font-size: 40px;
+}
+
+.Team-Video h2{
+  background-color:#387c88;
+  color:white;
+  border-radius: 0.5em;
+  margin: auto;
+  max-width: 470px;
+  font-size: 40px;
+}
+
+.container .display-2{
+  text-decoration: none;
+  background-color:#387c88;
+  color:white;
+  border-radius: 0.5em;
+  margin: auto;
+  max-width: 470px;
+  font-size: 40px;
+}
